@@ -1,0 +1,73 @@
+a:hover {
+  color: fuchsia;
+}
+
+a:visited {
+  color: white;
+}
+
+.background {
+  position: absolute;
+  display: block;
+  min-width: 100%;
+  min-height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.icons {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  text-indent: 10px;
+  hover: pointer;
+}
+
+.main-content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  
+  /*
+  Nope =(
+  margin-left: -25%;
+  margin-top: -25%;
+  */
+
+  /* 
+  Yep!
+  */
+  transform: translate(-50%, -50%);
+  
+  /*
+  Not even necessary really. 
+  e.g. Height could be left out!
+  */
+  width: 40%;
+  height: 50%;
+}
+
+.paragraph {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.subtitle {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Bebas Neue', cursive;
+  margin: 0px;
+}
