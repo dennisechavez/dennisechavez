@@ -23,6 +23,16 @@ a:visited {
   z-index: -1;
 }
 
+.background-gradient {
+  background-color: #ddcdcd;
+  background-image: linear-gradient(#ddcdcd, #7fa1a1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+
 .icons {
   font-size: 25px;
   color: white;
