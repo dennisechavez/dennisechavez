@@ -16,11 +16,11 @@ app.get('/projects', (req, res) => {
 })
 
 // Portfolio
-app.get('/projects/portfolio', (req, res) => {
+app.get('/portfolio', (req, res) => {
   res.render('projects/portfolio/home')
 });
 
-app.get('/projects/portfolio/projects', (req, res) => {
+app.get('/portfolio/projects', (req, res) => {
   res.render('projects/portfolio/projects')
 });
 
