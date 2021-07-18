@@ -3,13 +3,8 @@ html(lang="eng")
     <title>Dennise Chávez</title>
     <meta name="viewport" content="width=device-width">
 
-    //- <!-- links to make the page load faster -->
-    <link rel="preload" as="style" href="resources/css/styles.css">
-    <link rel="stylesheet" href="resources/css/styles.css">
-    //- <!-- end of links to make the page load faster -->
-
-    <link type="text/css" href="browserreset.css" rel="stylesheet"/>
-    <link type="text/css" href="styles.css" rel="stylesheet"/>
+    <link type="text/css" href="/browserreset.css" rel="stylesheet"/>
+    <link type="text/css" href="/styles.css" rel="stylesheet"/>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,8 +33,38 @@ html(lang="eng")
 
     header
 
-    block mainContent
+    <div class="main-content">
+      block mainContent
+      
+      <a href="/">
+        <p class="paragraph">Home</p>
+      </a>
+      <a href="/projects">
+        <p class="paragraph">My Projects</p>
+      </a>
+      
+      <a href="mailto:dennisecg94@gmail.com">
+        <p class="paragraph">Send me an email</p>
+      </a>
+      <p class="paragraph">Find me on</p>
+      
+      
+      <div class="icons">
+        <a href="https://www.figma.com/@dennisechavez">
+          <i class="fab fa-figma"></i>
+        </a>
+        <a href="https://github.com/dennisechavez">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://twitter.com/dennisechavezg">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://paypal.me/dennisecg?locale.x=en_US">
+          <i class="fab fa-cc-paypal"></i>
+        </a>  
+      </div> 
+    </div>
     
     footer
 
-    <script src="main.js"></script>
+    <script src="/main.js"></script>

@@ -20,6 +20,12 @@ app.get('/projects/portfolio', (req, res) => {
   res.render('projects/portfolio/home')
 });
 
+app.get('/projects/portfolio/projects', (req, res) => {
+  res.render('projects/portfolio/projects')
+});
+
+
+
 // Start the server
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
