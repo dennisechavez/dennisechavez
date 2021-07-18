@@ -11,9 +11,14 @@ app.get('/', (req, res) => {
   res.render('home')
 })
 
-  app.get('/projects', (req, res) => {
-    res.render('myprojects')
-  })
+app.get('/projects', (req, res) => {
+  res.render('myprojects')
+})
+
+// Portfolio
+app.get('/projects/portfolio', (req, res) => {
+  res.render('projects/portfolio/home')
+});
 
 // Start the server
 app.listen(port, () => {
